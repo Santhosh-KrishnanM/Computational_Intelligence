@@ -1,0 +1,16 @@
+Credithistory,Income,Debt,Approved
+Good,Low,Low,Yes
+Good,Medium,Low,Yes
+Ok,High,High,Yes
+Ok,High,High,Yes
+Ok,Medium,Low,Yes
+Ok,High,Low,Yes
+Bad,High,Low,No
+Bad,Medium,Low,No
+Ok,Low,High,No
+Ok,Low,High,No
+Ok,High,Low,Yes
+Good,Medium,High,No
+Bad,Low,High,No
+Bad,High,High,No
+Good,High,Low,Yes
