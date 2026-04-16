@@ -113,38 +113,3 @@ cousin(X,Y) :-
     parent(B,Y),
     sibling(A,B),
     X \= Y.
-
-
-
-
----------- OUTPUT -------------
-?- consult(blood).
-true.
-
-?- father(pandu,arjuna).
-true .
-
-?- mother(X,yudhishthira).
-X = kunti.
-
-?- grandparent(shantanu,X).
-X = dhritarashtra ;
-X = pandu ;
-X = vidura.
-
-?- sibling(arjuna,X).
-X = yudhishthira ;
-X = bhima ;
-X = nakula ;
-X = sahadeva ;
-X = yudhishthira ;
-X = bhima ;
-X = karna.
-
-?- father(arjuna,pandu).
-false.
-
-?- cousin(yudhishthira,X).
-X = duryodhana .
----------------------------
-
