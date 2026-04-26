@@ -1,0 +1,7 @@
+(defun area-parallelogram ()
+  (format t "Enter base: ")
+  (setq base (read))
+  (format t "Enter height: ")
+  (setq height (read))
+  (format t "Area = ~a" (* base height))
+  (values))
